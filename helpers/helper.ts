@@ -1,10 +1,7 @@
-interface Config {
-    apiKey: string;
-    timeout: number;
-}
+def main():
+    print('Hello, World!')
+    data = {'key': 'value'}
+    return data
 
-function initialize(config: Config): void {
-    console.log('Initializing...', config);
-}
-
-export { initialize, Config };
+if __name__ == '__main__':
+    main()
